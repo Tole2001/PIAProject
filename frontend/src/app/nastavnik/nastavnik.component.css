@@ -1,0 +1,84 @@
+
+
+a {
+  text-decoration: none;
+  color: #333; /* Link color */
+  margin-right: 10px; /* Adjust as needed */
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px; /* Adjust this value to control the gap between columns */
+}
+
+td {
+  padding: 10px; /* Adjust this value to control the gap inside each cell */
+}
+
+.indented {
+  padding-left: 20px; /* Adjust the value based on your preference */
+}
+
+
+header {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+header span {
+  cursor: pointer;
+}
+
+header span:hover {
+  text-decoration: underline;
+}
+
+
+.navbar-dark-grey {
+  background-color: #333; /* Dark grey background color */
+  padding: 10px; /* Add padding for spacing */
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start; /* Align elements to the left */
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.navbar-right span {
+  cursor: pointer;
+  margin-bottom: 10px; /* Add some space between elements */
+}
+.checkbox-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkbox-container label {
+  flex: 1 0 20%; /* Set each label to occupy 20% of the container width */
+  margin-right: 20px; /* Adjust the margin between checkboxes */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+main {
+  flex: 1; /* This pushes the footer to the bottom */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure body covers the entire viewport */
+  margin: 0;
+}

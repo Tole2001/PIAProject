@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "65c9d83d8cf9d4f36e3d3812"
+  },
+  "username": "Toci",
+  "password": "$2b$10$8UWfNZkZVJIGMvOxsbf.JO4hB5J8DYB.Ktm.hsMEwkD6/293rCChq",
+  "safetyq": "Omiljena zivotinja",
+  "safetya": "Macka",
+  "name": "Tocki",
+  "surname": "Tocke",
+  "sex": "M",
+  "adress": "Down street",
+  "telephone": "0654444423",
+  "email": "toci@gmail.com",
+  "schooltype": "osnovna",
+  "schoolgrade": 4,
+  "profilePic": "/uploads/1708265381978.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9d9c88cf9d4f36e3d382a"
+  },
+  "username": "Beli",
+  "password": "$2b$10$V8kMqj7YlDap7JklqnNBTeIpOcSUMO3rxyCNloELX16FiB1s686Ta",
+  "safetyq": "Omiljena boja",
+  "safetya": "Bela",
+  "name": "Beli",
+  "surname": "Belaner",
+  "sex": "M",
+  "adress": "Right street",
+  "telephone": "0634562342",
+  "email": "beli@gmai.com",
+  "schooltype": "srednja-gimnazija",
+  "schoolgrade": 3,
+  "profilePic": "/uploads/default.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9da2b8cf9d4f36e3d3830"
+  },
+  "username": "Crni",
+  "password": "$2b$10$fwmmsGu1VwREo8mt6XmNGOKH9FTVV8RCsx637OLJuP0W8cIhJT2RG",
+  "safetyq": "Omiljena boja",
+  "safetya": "Crna",
+  "name": "Crni",
+  "surname": "Crnko",
+  "sex": "M",
+  "adress": "Middle street",
+  "telephone": "06345454545",
+  "email": "crni@gmail.com",
+  "schooltype": "srednja-umetnicka",
+  "schoolgrade": 2,
+  "profilePic": "/uploads/1707727402904.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9da558cf9d4f36e3d3836"
+  },
+  "username": "Roze",
+  "password": "$2b$10$ItrzB.aaF3S08tkKo8rA1O1Auz5hzg9ut4fIZ0xT1RGZcudurqTp6",
+  "safetyq": "Omiljena boja",
+  "safetya": "Roze",
+  "name": "Roza",
+  "surname": "Rozic",
+  "sex": "Z",
+  "adress": "Back Street",
+  "telephone": "063456474",
+  "email": "roze@gmail.com",
+  "schooltype": "srednja-umetnicka",
+  "schoolgrade": 2,
+  "profilePic": "/uploads/default.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9da9d8cf9d4f36e3d383e"
+  },
+  "username": "Braon",
+  "password": "$2b$10$XxDd42yTzWxMTdVXGynvfOYhU.QCIjrbZFZ4f7DjfBnnOw.FyetS2",
+  "safetyq": "Omiljena boja",
+  "safetya": "Braon",
+  "name": "Braonko",
+  "surname": "Braonic",
+  "sex": "M",
+  "adress": "Down under",
+  "telephone": "0636666666",
+  "email": "braon@gmail.com",
+  "schooltype": "srednja-strucna",
+  "schoolgrade": 1,
+  "profilePic": "/uploads/default.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9dae28cf9d4f36e3d3844"
+  },
+  "username": "Zuta",
+  "password": "$2b$10$rDpneTQS.gawb13OUzzruOnd7lKQC97QJ4gYJl/0JwG3NhAov.vde",
+  "safetyq": "Omiljena boja",
+  "safetya": "Zuta",
+  "name": "Zuta",
+  "surname": "Zutko",
+  "sex": "Z",
+  "adress": "Up over",
+  "telephone": "063452312",
+  "email": "zuta@gmail.com",
+  "schooltype": "osnovna",
+  "schoolgrade": 6,
+  "profilePic": "/uploads/default.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9db118cf9d4f36e3d384a"
+  },
+  "username": "Test",
+  "password": "$2b$10$kJU7SjHy8BJeMufS17FzPO7lrztYXedt1KxjjV5M/m.Ksxs1TS/8a",
+  "safetyq": "Test",
+  "safetya": "Test",
+  "name": "Ola komoestat",
+  "surname": "Testic",
+  "sex": "M",
+  "adress": "Down under",
+  "telephone": "063444444",
+  "email": "test12@gmail.com",
+  "schooltype": "osnovna",
+  "schoolgrade": 2,
+  "profilePic": "/uploads/1708177398984.png",
+  "__v": 0
+}]

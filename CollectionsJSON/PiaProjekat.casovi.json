@@ -1,0 +1,2112 @@
+[{
+  "_id": {
+    "$oid": "65c9eea319fc6dc4425821f0"
+  },
+  "predmet": "Matematika",
+  "nastavnik": "Profa",
+  "ucenik": "Toci",
+  "opis": "Pitagora",
+  "datumvreme": {
+    "$date": "2023-07-12T10:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-07-12T11:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9eebe19fc6dc4425821f3"
+  },
+  "predmet": "Matematika",
+  "nastavnik": "Profa",
+  "ucenik": "Toci",
+  "opis": "Geometrija",
+  "datumvreme": {
+    "$date": "2023-06-14T14:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-06-14T15:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9ef0719fc6dc4425821f6"
+  },
+  "predmet": "Matematika",
+  "nastavnik": "Profa",
+  "ucenik": "Toci",
+  "opis": "Piramide",
+  "datumvreme": {
+    "$date": "2023-04-18T15:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-04-18T16:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f12de1a09c7f5217e2e6"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Sendi",
+  "ucenik": "Toci",
+  "opis": "Knjiga1 please",
+  "datumvreme": {
+    "$date": "2023-10-17T14:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-10-17T15:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "Poprilicno solidan",
+  "potvrdjen": 1,
+  "ocena": 5,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f145e1a09c7f5217e2e9"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Sendi",
+  "ucenik": "Toci",
+  "opis": "Knjiga2 please",
+  "datumvreme": {
+    "$date": "2023-07-19T15:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-07-19T16:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "Nije procitao",
+  "potvrdjen": 1,
+  "ocena": 2,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f1b6e1a09c7f5217e2ee"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Sendi",
+  "ucenik": "Toci",
+  "opis": "Neka lektira",
+  "datumvreme": {
+    "$date": "2023-02-23T10:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-02-23T11:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "Malo citao",
+  "potvrdjen": 1,
+  "ocena": 3,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f200e1a09c7f5217e2f7"
+  },
+  "predmet": "Italijanski jezik",
+  "nastavnik": "Bils",
+  "ucenik": "Toci",
+  "opis": "Mama mia",
+  "datumvreme": {
+    "$date": "2023-12-11T10:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-12-11T11:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f22ce1a09c7f5217e2fa"
+  },
+  "predmet": "Spasnki jezik",
+  "nastavnik": "Bils",
+  "ucenik": "Toci",
+  "opis": "No ablo espnajol sinjor",
+  "datumvreme": {
+    "$date": "2023-07-19T13:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-07-19T14:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f2f3e1a09c7f5217e2ff"
+  },
+  "predmet": "Spasnki jezik",
+  "nastavnik": "Bils",
+  "ucenik": "Toci",
+  "opis": "Barca",
+  "datumvreme": {
+    "$date": "2023-03-28T16:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-03-28T17:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f320e1a09c7f5217e308"
+  },
+  "predmet": "Latinski jezik",
+  "nastavnik": "Raven",
+  "ucenik": "Toci",
+  "opis": "Latinski ovo ono",
+  "datumvreme": {
+    "$date": "2023-10-18T13:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-10-18T14:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f335e1a09c7f5217e30b"
+  },
+  "predmet": "Spasnki jezik",
+  "nastavnik": "Raven",
+  "ucenik": "Toci",
+  "opis": "Real",
+  "datumvreme": {
+    "$date": "2023-06-15T10:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-06-15T12:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f36ee1a09c7f5217e314"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "El serbian ",
+  "datumvreme": {
+    "$date": "2023-10-16T10:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-10-16T11:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f37fe1a09c7f5217e317"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "El serbian ",
+  "datumvreme": {
+    "$date": "2023-05-17T14:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-05-17T15:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f3dae1a09c7f5217e32a"
+  },
+  "predmet": "Fizika",
+  "nastavnik": "Prle",
+  "ucenik": "Beli",
+  "opis": "Akcija i reakcija",
+  "datumvreme": {
+    "$date": "2023-12-27T13:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-12-27T14:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f419e1a09c7f5217e32d"
+  },
+  "predmet": "Matematika",
+  "nastavnik": "Prle",
+  "ucenik": "Beli",
+  "opis": "Le mathematique",
+  "datumvreme": {
+    "$date": "2023-07-12T14:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-07-12T16:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f452e1a09c7f5217e336"
+  },
+  "predmet": "Geografija",
+  "nastavnik": "Lignja",
+  "ucenik": "Beli",
+  "opis": "Srpska geografija",
+  "datumvreme": {
+    "$date": "2023-11-15T15:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-11-15T16:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f470e1a09c7f5217e339"
+  },
+  "predmet": "Istorija",
+  "nastavnik": "Lignja",
+  "ucenik": "Beli",
+  "opis": "Nemanjici",
+  "datumvreme": {
+    "$date": "2023-08-16T10:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-08-16T11:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f4d9e1a09c7f5217e342"
+  },
+  "predmet": "Programiranje",
+  "nastavnik": "Chifs",
+  "ucenik": "Beli",
+  "opis": "Python",
+  "datumvreme": {
+    "$date": "2023-07-10T12:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-07-10T13:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f4ebe1a09c7f5217e345"
+  },
+  "predmet": "Programiranje",
+  "nastavnik": "Chifs",
+  "ucenik": "Beli",
+  "opis": "C++",
+  "datumvreme": {
+    "$date": "2023-04-26T15:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-04-26T16:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f550e1a09c7f5217e34e"
+  },
+  "predmet": "Francuski jezik",
+  "nastavnik": "Vegas",
+  "ucenik": "Beli",
+  "opis": "Parlais vous france",
+  "datumvreme": {
+    "$date": "2023-10-18T12:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-10-18T13:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f573e1a09c7f5217e351"
+  },
+  "predmet": "Engelski jezik",
+  "nastavnik": "Vegas",
+  "ucenik": "Beli",
+  "opis": "Teach me english",
+  "datumvreme": {
+    "$date": "2023-01-30T12:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-01-30T13:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f5a0e1a09c7f5217e35a"
+  },
+  "predmet": "Engelski jezik",
+  "nastavnik": "Lion",
+  "ucenik": "Beli",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2023-06-19T22:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-06-19T23:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f5b6e1a09c7f5217e35d"
+  },
+  "predmet": "Nemacki jezik",
+  "nastavnik": "Lion",
+  "ucenik": "Beli",
+  "opis": "NEIN",
+  "datumvreme": {
+    "$date": "2023-10-25T14:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-10-25T15:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f60ce1a09c7f5217e36c"
+  },
+  "predmet": "Programiranje",
+  "nastavnik": "Pack",
+  "ucenik": "Beli",
+  "opis": "C#",
+  "datumvreme": {
+    "$date": "2023-08-16T13:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-08-16T14:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f648e1a09c7f5217e37f"
+  },
+  "predmet": "Fizika",
+  "nastavnik": "Prle",
+  "ucenik": "Crni",
+  "opis": "Neki zakon inercije",
+  "datumvreme": {
+    "$date": "2023-08-25T14:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-08-25T15:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f65de1a09c7f5217e382"
+  },
+  "predmet": "Matematika",
+  "nastavnik": "Prle",
+  "ucenik": "Crni",
+  "opis": "Neki zakon inercije",
+  "datumvreme": {
+    "$date": "2023-12-08T13:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-12-08T14:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f685e1a09c7f5217e38b"
+  },
+  "predmet": "Nemacki jezik",
+  "nastavnik": "Lion",
+  "ucenik": "Crni",
+  "opis": "Bayern munich",
+  "datumvreme": {
+    "$date": "2023-09-01T11:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-09-01T12:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f6a9e1a09c7f5217e38e"
+  },
+  "predmet": "Engelski jezik",
+  "nastavnik": "Lion",
+  "ucenik": "Crni",
+  "opis": "Book who knows what",
+  "datumvreme": {
+    "$date": "2023-08-04T13:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-08-04T14:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f703e1a09c7f5217e397"
+  },
+  "predmet": "Francuski jezik",
+  "nastavnik": "Vegas",
+  "ucenik": "Crni",
+  "opis": "BAGUETTE",
+  "datumvreme": {
+    "$date": "2023-06-30T09:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-06-30T10:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f736e1a09c7f5217e39a"
+  },
+  "predmet": "Engelski jezik",
+  "nastavnik": "Vegas",
+  "ucenik": "Crni",
+  "opis": "CHELSEA CHELSEA CHELSEA\n",
+  "datumvreme": {
+    "$date": "2023-03-06T11:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-03-06T12:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f771e1a09c7f5217e3af"
+  },
+  "predmet": "Fizika",
+  "nastavnik": "Prle",
+  "ucenik": "Crni",
+  "opis": "Neki atomi",
+  "datumvreme": {
+    "$date": "2023-08-29T10:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-08-29T11:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f7d7e1a09c7f5217e3c2"
+  },
+  "predmet": "Programiranje",
+  "nastavnik": "Pack",
+  "ucenik": "Roze",
+  "opis": "SQL",
+  "datumvreme": {
+    "$date": "2023-08-21T11:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-08-21T12:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f7ffe1a09c7f5217e3cb"
+  },
+  "predmet": "Engelski jezik",
+  "nastavnik": "Lion",
+  "ucenik": "Roze",
+  "opis": "CHELSEA NOT UTD",
+  "datumvreme": {
+    "$date": "2023-06-02T15:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-06-02T16:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f819e1a09c7f5217e3ce"
+  },
+  "predmet": "Nemacki jezik",
+  "nastavnik": "Lion",
+  "ucenik": "Roze",
+  "opis": "NIEN DEUTCH",
+  "datumvreme": {
+    "$date": "2023-04-26T13:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-04-26T14:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f848e1a09c7f5217e3e3"
+  },
+  "predmet": "Geografija",
+  "nastavnik": "Lignja",
+  "ucenik": "Roze",
+  "opis": "Vetrovi",
+  "datumvreme": {
+    "$date": "2023-10-16T12:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-10-16T13:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f866e1a09c7f5217e3e6"
+  },
+  "predmet": "Istorija",
+  "nastavnik": "Lignja",
+  "ucenik": "Roze",
+  "opis": "WW2",
+  "datumvreme": {
+    "$date": "2023-02-17T14:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-02-17T15:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f88be1a09c7f5217e3ef"
+  },
+  "predmet": "Matematika",
+  "nastavnik": "Prle",
+  "ucenik": "Roze",
+  "opis": "Valjak",
+  "datumvreme": {
+    "$date": "2023-07-14T13:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-07-14T14:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f8a9e1a09c7f5217e3f2"
+  },
+  "predmet": "Matematika",
+  "nastavnik": "Prle",
+  "ucenik": "Roze",
+  "opis": "Izvodi",
+  "datumvreme": {
+    "$date": "2023-07-20T12:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-07-20T13:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65c9f8e5e1a09c7f5217e401"
+  },
+  "predmet": "Programiranje",
+  "nastavnik": "Chifs",
+  "ucenik": "Roze",
+  "opis": "React",
+  "datumvreme": {
+    "$date": "2023-06-27T13:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-06-27T14:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65ca300c91a40cf0b2883480"
+  },
+  "predmet": "Fizika",
+  "nastavnik": "Prle",
+  "ucenik": "Braon",
+  "opis": "Braon Fizika",
+  "datumvreme": {
+    "$date": "2023-09-13T09:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-09-13T10:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65ca302891a40cf0b2883483"
+  },
+  "predmet": "Matematika",
+  "nastavnik": "Prle",
+  "ucenik": "Braon",
+  "opis": "Braon mata prizma",
+  "datumvreme": {
+    "$date": "2023-07-17T14:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-07-17T15:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65ca305891a40cf0b288348c"
+  },
+  "predmet": "Geografija",
+  "nastavnik": "Lignja",
+  "ucenik": "Braon",
+  "opis": "Kise u amazonu",
+  "datumvreme": {
+    "$date": "2023-05-31T13:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-05-31T14:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65ca308091a40cf0b288348f"
+  },
+  "predmet": "Istorija",
+  "nastavnik": "Lignja",
+  "ucenik": "Braon",
+  "opis": "Egipat kleopatra i tako to",
+  "datumvreme": {
+    "$date": "2023-09-25T12:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-09-25T13:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65ca30f791a40cf0b288349c"
+  },
+  "predmet": "Programiranje",
+  "nastavnik": "Chifs",
+  "ucenik": "Braon",
+  "opis": "Object Oriented",
+  "datumvreme": {
+    "$date": "2023-03-27T15:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-03-27T16:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65ca313f91a40cf0b28834a5"
+  },
+  "predmet": "Engelski jezik",
+  "nastavnik": "Vegas",
+  "ucenik": "Braon",
+  "opis": "Enlgsh very good yes CHELSEA CHELSEA",
+  "datumvreme": {
+    "$date": "2023-05-22T14:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-05-22T15:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65ca315791a40cf0b28834a8"
+  },
+  "predmet": "Francuski jezik",
+  "nastavnik": "Vegas",
+  "ucenik": "Braon",
+  "opis": "FRENCHvery good NO CHELSEA CHELSEA",
+  "datumvreme": {
+    "$date": "2023-08-17T10:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-08-17T11:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65ca324791a40cf0b28834dc"
+  },
+  "predmet": "Biologija",
+  "nastavnik": "Lopta",
+  "ucenik": "Zuta",
+  "opis": "Celije",
+  "datumvreme": {
+    "$date": "2023-08-30T14:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-08-30T15:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65ca328491a40cf0b28834df"
+  },
+  "predmet": "Svet oko nas",
+  "nastavnik": "Lopta",
+  "ucenik": "Zuta",
+  "opis": "Idk sta je ovo tbh",
+  "datumvreme": {
+    "$date": "2023-07-18T13:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-07-18T14:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65ca32a891a40cf0b28834e8"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Sendi",
+  "ucenik": "Zuta",
+  "opis": "Lektira i priprema za pismeni",
+  "datumvreme": {
+    "$date": "2023-02-08T13:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-02-08T14:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 5,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65ca32e191a40cf0b28834eb"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Sendi",
+  "ucenik": "Zuta",
+  "opis": "Lektira i priprema za pismeni",
+  "datumvreme": {
+    "$date": "2023-03-09T13:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-03-09T14:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "Solidno znanje lektire",
+  "potvrdjen": 1,
+  "ocena": 4,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65ca330691a40cf0b28834f4"
+  },
+  "predmet": "Spasnki jezik",
+  "nastavnik": "Raven",
+  "ucenik": "Zuta",
+  "opis": "No ablo epsnayol sinjoro yes CHELSEA",
+  "datumvreme": {
+    "$date": "2023-03-03T10:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-03-03T11:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65ca332a91a40cf0b28834f7"
+  },
+  "predmet": "Latinski jezik",
+  "nastavnik": "Raven",
+  "ucenik": "Zuta",
+  "opis": "CHELSEA NA LATINSKOM",
+  "datumvreme": {
+    "$date": "2023-05-15T13:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2023-05-15T14:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65cb43622127a4b74a060281"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2024-02-28T13:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-28T14:30:00.000Z"
+  },
+  "odrzan": 2,
+  "komentar": "Aint a fan tbh",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 1
+},
+{
+  "_id": {
+    "$oid": "65cb44fa2127a4b74a06028b"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2024-02-28T11:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-28T12:30:00.000Z"
+  },
+  "odrzan": 2,
+  "komentar": "Otkazan je jer mi se htelo",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 1
+},
+{
+  "_id": {
+    "$oid": "65cb46ee2127a4b74a06029e"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "Treci",
+  "datumvreme": {
+    "$date": "2024-02-28T15:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-28T16:00:00.000Z"
+  },
+  "odrzan": 0,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65cb48bc2127a4b74a0602a9"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "UGLABI",
+  "datumvreme": {
+    "$date": "2024-02-28T12:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-28T13:30:00.000Z"
+  },
+  "odrzan": 0,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65cb925d138b1331b2c9cb93"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Sendi",
+  "ucenik": "Zuta",
+  "opis": "Prvi",
+  "datumvreme": {
+    "$date": "2024-02-15T10:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-15T11:00:00.000Z"
+  },
+  "odrzan": 2,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 1
+},
+{
+  "_id": {
+    "$oid": "65cb926d138b1331b2c9cb96"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Sendi",
+  "ucenik": "Zuta",
+  "opis": "Drugi i to dupli",
+  "datumvreme": {
+    "$date": "2024-02-14T13:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-14T15:00:00.000Z"
+  },
+  "odrzan": 2,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 1
+},
+{
+  "_id": {
+    "$oid": "65cb9424138b1331b2c9cbf1"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Sendi",
+  "ucenik": "Zuta",
+  "opis": "Ovaj da moze da se odrzi",
+  "datumvreme": {
+    "$date": "2024-02-13T17:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-13T18:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 5,
+  "__v": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0
+},
+{
+  "_id": {
+    "$oid": "65cb9ee63a421c7d78ceb0cf"
+  },
+  "predmet": "Svet oko nas",
+  "nastavnik": "Lopta",
+  "ucenik": "Zuta",
+  "opis": "IDK",
+  "datumvreme": {
+    "$date": "2024-05-23T09:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-05-23T10:00:00.000Z"
+  },
+  "odrzan": 0,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cc79b38154b6ca0b0377ce"
+  },
+  "predmet": "Engelski jezik",
+  "nastavnik": "Lion",
+  "ucenik": "Beli",
+  "opis": "Cas 1",
+  "datumvreme": {
+    "$date": "2024-02-16T10:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T11:30:00.000Z"
+  },
+  "odrzan": 2,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cc79d88154b6ca0b0377d1"
+  },
+  "predmet": "Engelski jezik",
+  "nastavnik": "Lion",
+  "ucenik": "Beli",
+  "opis": "Cas 2",
+  "datumvreme": {
+    "$date": "2024-02-16T12:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T13:00:00.000Z"
+  },
+  "odrzan": 0,
+  "komentar": "",
+  "potvrdjen": 2,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cc79e68154b6ca0b0377d4"
+  },
+  "predmet": "Engelski jezik",
+  "nastavnik": "Lion",
+  "ucenik": "Beli",
+  "opis": "Cas 3",
+  "datumvreme": {
+    "$date": "2024-02-15T15:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-15T16:30:00.000Z"
+  },
+  "odrzan": 0,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ccdd22f1a9b521e3d870af"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Sendi",
+  "ucenik": "Toci",
+  "opis": "Cas 1",
+  "datumvreme": {
+    "$date": "2024-02-15T14:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-15T15:30:00.000Z"
+  },
+  "odrzan": 2,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ccdd9af1a9b521e3d87120"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Sendi",
+  "ucenik": "Toci",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2024-02-16T10:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T11:30:00.000Z"
+  },
+  "odrzan": 0,
+  "komentar": "",
+  "potvrdjen": 2,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ccdf07f1a9b521e3d87125"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Sendi",
+  "ucenik": "Toci",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2024-02-15T10:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-15T11:30:00.000Z"
+  },
+  "odrzan": 0,
+  "komentar": "",
+  "potvrdjen": 2,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cddab7f26ada2948fc0452"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "Xd1",
+  "datumvreme": {
+    "$date": "2024-02-15T10:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-15T11:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cddac8f26ada2948fc0455"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "Xd2",
+  "datumvreme": {
+    "$date": "2024-02-15T12:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-15T13:00:00.000Z"
+  },
+  "odrzan": 0,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cddad7f26ada2948fc0458"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "Xd3",
+  "datumvreme": {
+    "$date": "2024-02-15T13:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-15T14:30:00.000Z"
+  },
+  "odrzan": 2,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cddae1f26ada2948fc045b"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "Xd4",
+  "datumvreme": {
+    "$date": "2024-02-15T15:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-15T16:00:00.000Z"
+  },
+  "odrzan": 2,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cddaf1f26ada2948fc045e"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "Xd5",
+  "datumvreme": {
+    "$date": "2024-02-15T16:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-15T17:30:00.000Z"
+  },
+  "odrzan": 2,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cddbfbf26ada2948fc052b"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "DX1",
+  "datumvreme": {
+    "$date": "2024-02-16T10:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T11:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cddc12f26ada2948fc052e"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "DX2",
+  "datumvreme": {
+    "$date": "2024-02-16T12:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T13:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cddc1cf26ada2948fc0531"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "DX3",
+  "datumvreme": {
+    "$date": "2024-02-16T13:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T14:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cddc29f26ada2948fc0534"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "DX4",
+  "datumvreme": {
+    "$date": "2024-02-16T15:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T16:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cddc47f26ada2948fc0538"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "DX4",
+  "datumvreme": {
+    "$date": "2024-02-16T16:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T17:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cde224f26ada2948fc075d"
+  },
+  "predmet": "Latinski jezik",
+  "nastavnik": "Raven",
+  "ucenik": "Zuta",
+  "opis": "Latino",
+  "datumvreme": {
+    "$date": "2024-02-15T11:15:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-15T12:15:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cde2e5f26ada2948fc07c3"
+  },
+  "predmet": "Latinski jezik",
+  "nastavnik": "Raven",
+  "ucenik": "Zuta",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2024-02-15T14:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-15T15:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ce36cde385fc465b748b08"
+  },
+  "predmet": "Biologija",
+  "nastavnik": "Lopta",
+  "ucenik": "Zuta",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2024-02-16T14:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T15:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ce36ede385fc465b748b0b"
+  },
+  "predmet": "Biologija",
+  "nastavnik": "Lopta",
+  "ucenik": "Zuta",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2024-02-16T10:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T11:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ce375ae385fc465b748b12"
+  },
+  "predmet": "Svet oko nas",
+  "nastavnik": "Lopta",
+  "ucenik": "Zuta",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2024-02-16T16:45:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T17:45:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ce384bbf3c1733da79191a"
+  },
+  "predmet": "Francuski jezik",
+  "nastavnik": "Vegas",
+  "ucenik": "Beli",
+  "opis": "El francais",
+  "datumvreme": {
+    "$date": "2024-02-16T11:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T12:00:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ce385abf3c1733da79191d"
+  },
+  "predmet": "Engelski jezik",
+  "nastavnik": "Vegas",
+  "ucenik": "Beli",
+  "opis": "El anglais",
+  "datumvreme": {
+    "$date": "2024-02-16T11:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T12:00:00.000Z"
+  },
+  "odrzan": 0,
+  "komentar": "",
+  "potvrdjen": 2,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ce38bfbf3c1733da79197d"
+  },
+  "predmet": "Geografija",
+  "nastavnik": "Lignja",
+  "ucenik": "Crni",
+  "opis": "Geo",
+  "datumvreme": {
+    "$date": "2024-02-16T10:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T11:30:00.000Z"
+  },
+  "odrzan": 2,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ce38cabf3c1733da791980"
+  },
+  "predmet": "Istorija",
+  "nastavnik": "Lignja",
+  "ucenik": "Crni",
+  "opis": "NotGeo",
+  "datumvreme": {
+    "$date": "2024-02-16T10:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T11:30:00.000Z"
+  },
+  "odrzan": 0,
+  "komentar": "",
+  "potvrdjen": 2,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ce391ebf3c1733da7919d3"
+  },
+  "predmet": "Istorija",
+  "nastavnik": "Lignja",
+  "ucenik": "Roze",
+  "opis": "IstoRoze",
+  "datumvreme": {
+    "$date": "2024-02-16T10:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T11:30:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ce3d14e5f7c1ee61375bff"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Sendi",
+  "ucenik": "Toci",
+  "opis": "AM PM",
+  "datumvreme": {
+    "$date": "2024-05-16T09:45:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-05-16T10:45:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ce3d96e5f7c1ee61375cab"
+  },
+  "predmet": "Spasnki jezik",
+  "nastavnik": "Bils",
+  "ucenik": "Toci",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2024-04-23T09:45:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-04-23T10:45:00.000Z"
+  },
+  "odrzan": 2,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cf1dd01fcccc4b163ca2bd"
+  },
+  "predmet": "Matematika",
+  "nastavnik": "Profa",
+  "ucenik": "Toci",
+  "opis": "Testing",
+  "datumvreme": {
+    "$date": "2024-02-16T15:30:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T16:30:00.000Z"
+  },
+  "odrzan": 0,
+  "komentar": "Ne mogu da stignem",
+  "potvrdjen": 2,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cf27941fcccc4b163ca66c"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Toci",
+  "opis": "Real SOOn",
+  "datumvreme": {
+    "$date": "2024-02-19T15:15:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-19T16:15:00.000Z"
+  },
+  "odrzan": 0,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cf74bb716f46586255e3cb"
+  },
+  "predmet": "Matematika",
+  "nastavnik": "Profa",
+  "ucenik": "Toci",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2024-04-30T15:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-04-30T17:00:00.000Z"
+  },
+  "odrzan": 2,
+  "komentar": "Ono bole me noga",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cf77ec716f46586255e4b8"
+  },
+  "predmet": "Matematika",
+  "nastavnik": "Profa",
+  "ucenik": "Toci",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2024-03-21T10:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-03-21T11:00:00.000Z"
+  },
+  "odrzan": 0,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 1,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cf7a20716f46586255e688"
+  },
+  "predmet": "Matematika",
+  "nastavnik": "Profa",
+  "ucenik": "Toci",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2024-02-16T16:15:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T17:15:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cf7cf0716f46586255e77e"
+  },
+  "predmet": "Programiranje",
+  "nastavnik": "Pack",
+  "ucenik": "Braon",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2024-02-16T16:45:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-16T17:45:00.000Z"
+  },
+  "odrzan": 0,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d077430b252b583780fafe"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Sendi",
+  "ucenik": "Zuta",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2024-03-15T12:00:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-03-15T13:00:00.000Z"
+  },
+  "odrzan": 0,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d304f54875d7c5b8e9f9ef"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "nastavnik": "Beng",
+  "ucenik": "Test",
+  "opis": "",
+  "datumvreme": {
+    "$date": "2024-02-19T08:45:00.000Z"
+  },
+  "datumvremekraj": {
+    "$date": "2024-02-19T09:45:00.000Z"
+  },
+  "odrzan": 1,
+  "komentar": "",
+  "potvrdjen": 1,
+  "ocena": 0,
+  "potvrdaObavestenje": 0,
+  "otkazObavestenj": 0,
+  "__v": 0
+}]

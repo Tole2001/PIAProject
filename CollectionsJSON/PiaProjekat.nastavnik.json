@@ -1,0 +1,321 @@
+[{
+  "_id": {
+    "$oid": "65c9dd818cf9d4f36e3d3851"
+  },
+  "username": "Profa",
+  "password": "$2b$10$UBK61UOpqba3hNQMH8fZQ.bf8c5TYw2GnUCKbrMUq3Grmb24PBBD2",
+  "safetyq": "Omiljeni konj",
+  "safetya": "Konj",
+  "name": "Fat",
+  "surname": "Cat",
+  "sex": "M",
+  "adress": "Inbetween",
+  "telephone": "063444444",
+  "email": "profa@gmail.com",
+  "razredi": [
+    "osnovna1-4"
+  ],
+  "referenca": "",
+  "predmeti": [
+    "Matematika"
+  ],
+  "potvrda": 1,
+  "profilePic": "/uploads/default.jpg",
+  "CV": "/uploads/CVHolder.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9ddde8cf9d4f36e3d3858"
+  },
+  "username": "Lopta",
+  "password": "$2b$10$CCZF1T/2jPjGPmq9sub7V.o9X2BMNTnke6pyCoyALyuB.yTp.qYDq",
+  "safetyq": "Omiljena lopta",
+  "safetya": "Lopta",
+  "name": "Lopta",
+  "surname": "Loptetina",
+  "sex": "Z",
+  "adress": "Ulica 55",
+  "telephone": "0657777777",
+  "email": "lopta@gmail.com",
+  "razredi": [
+    "osnovna5-8"
+  ],
+  "referenca": "",
+  "predmeti": [
+    "Biologija",
+    "Svet oko nas"
+  ],
+  "potvrda": 1,
+  "profilePic": "/uploads/default.jpg",
+  "CV": "/uploads/CVHolder.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9de268cf9d4f36e3d385f"
+  },
+  "username": "Prle",
+  "password": "$2b$10$yozJ7TKUOhZtA6XDwRSNOe2tQ3tM3Pwik9iC/nZxNaoSXdtxMgOFy",
+  "safetyq": "Omiljena prla",
+  "safetya": "Prle",
+  "name": "Prle",
+  "surname": "Prlic",
+  "sex": "M",
+  "adress": "Under the sea",
+  "telephone": "063333333",
+  "email": "prle@gmail.com",
+  "razredi": [
+    "srednja"
+  ],
+  "referenca": "",
+  "predmeti": [
+    "Fizika",
+    "Matematika"
+  ],
+  "potvrda": 1,
+  "profilePic": "/uploads/default.jpg",
+  "CV": "/uploads/CVHolder.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9de678cf9d4f36e3d3866"
+  },
+  "username": "Sendi",
+  "password": "$2b$10$8Mo.6P3dDEj2pqcCKVx1Remq5cgC5FkDpP/1shuQwVfJlx7if4FTC",
+  "safetyq": "Omiljena veverica",
+  "safetya": "Sendi",
+  "name": "Sendi",
+  "surname": "Veverica",
+  "sex": "Z",
+  "adress": "Ono stakleno under the sea brev",
+  "telephone": "06344444444",
+  "email": "sendi@gmail.com",
+  "razredi": [
+    "osnovna5-8",
+    "osnovna1-4"
+  ],
+  "referenca": "",
+  "predmeti": [
+    "Srpski jezik i knjizevnost"
+  ],
+  "potvrda": 1,
+  "profilePic": "/uploads/1708070210289.jpg",
+  "CV": "/uploads/CVHolder.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9decb8cf9d4f36e3d386d"
+  },
+  "username": "Lignja",
+  "password": "$2b$10$cA2V2K6tRKgCPdl7uM5Bm.bPmMsWFs2ZPSU9.Vt3XV3ILE2boWAaK",
+  "safetyq": "Fried squid",
+  "safetya": "Si",
+  "name": "Lignja",
+  "surname": "Lignjic",
+  "sex": "M",
+  "adress": "Hawaii",
+  "telephone": "063444444",
+  "email": "lignja@gmail.com",
+  "razredi": [
+    "srednja"
+  ],
+  "referenca": "",
+  "predmeti": [
+    "Geografija",
+    "Istorija"
+  ],
+  "potvrda": 1,
+  "profilePic": "/uploads/default.jpg",
+  "CV": "/uploads/CVHolder.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9df088cf9d4f36e3d3874"
+  },
+  "username": "Chifs",
+  "password": "$2b$10$zN7MB5/jrTHTaeet1iM2BuxuvpLuowdXlAdSfG0QuRXSVrQ5YLK86",
+  "safetyq": "Indijanac",
+  "safetya": "Oui",
+  "name": "Kansas",
+  "surname": "Chifsi",
+  "sex": "M",
+  "adress": "Michigan",
+  "telephone": "063333333",
+  "email": "chifs@gmail.com",
+  "razredi": [
+    "srednja"
+  ],
+  "referenca": "",
+  "predmeti": [
+    "Programiranje"
+  ],
+  "potvrda": 1,
+  "profilePic": "/uploads/default.jpg",
+  "CV": "/uploads/CVHolder.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9df3b8cf9d4f36e3d387b"
+  },
+  "username": "Bils",
+  "password": "$2b$10$VJLqc55CPwvcC3cl/0KTv.k85jFdDI8xLIYPVbVEWa9MF8z.SmZhG",
+  "safetyq": "Josh",
+  "safetya": "Allen",
+  "name": "Buffalo",
+  "surname": "Bils",
+  "sex": "M",
+  "adress": "NY,Bro",
+  "telephone": "06555555",
+  "email": "bils@gmail.com",
+  "razredi": [
+    "osnovna1-4"
+  ],
+  "referenca": "",
+  "predmeti": [
+    "Italijanski jezik",
+    "Spasnki jezik"
+  ],
+  "potvrda": 1,
+  "profilePic": "/uploads/default.jpg",
+  "CV": "/uploads/CVHolder.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9df688cf9d4f36e3d3882"
+  },
+  "username": "Vegas",
+  "password": "$2b$10$I8/Ckf8BbIMVdJE5iOFKheG1CouKN6JwoX2DMrw3tPMcYVmqoYOBC",
+  "safetyq": "Black",
+  "safetya": "Pirates",
+  "name": "Vegas",
+  "surname": "Raiders",
+  "sex": "Z",
+  "adress": "VEGAS",
+  "telephone": "06777777",
+  "email": "vegas@gmail.com",
+  "razredi": [
+    "srednja"
+  ],
+  "referenca": "",
+  "predmeti": [
+    "Francuski jezik",
+    "Engelski jezik"
+  ],
+  "potvrda": 1,
+  "profilePic": "/uploads/default.jpg",
+  "CV": "/uploads/CVHolder.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9dfd18cf9d4f36e3d3889"
+  },
+  "username": "Raven",
+  "password": "$2b$10$MS.xKzAzdDSxoRctjuaNM.RNuguVvhgKoe3c33.NzbSDvpqck8XJ6",
+  "safetyq": "AT Bank",
+  "safetya": "Robbed",
+  "name": "Baltimroe",
+  "surname": "Raven",
+  "sex": "Z",
+  "adress": "Purple street 55",
+  "telephone": "0632222221",
+  "email": "raven@gmail.com",
+  "razredi": [
+    "osnovna5-8",
+    "osnovna1-4"
+  ],
+  "referenca": "Ne u SB-u",
+  "predmeti": [
+    "Spasnki jezik",
+    "Latinski jezik"
+  ],
+  "potvrda": 1,
+  "profilePic": "/uploads/default.jpg",
+  "CV": "/uploads/CVHolder.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9e0d48cf9d4f36e3d3890"
+  },
+  "username": "Lion",
+  "password": "$2b$10$4AiSBEKKl5S63FJGdRogruYM.FwuBScUD/jesIvLNK5E6TLvLXfA6",
+  "safetyq": "DAN",
+  "safetya": "CAMPBELL",
+  "name": "Detroit",
+  "surname": "Lions",
+  "sex": "M",
+  "adress": "Detroit 55",
+  "telephone": "068888888",
+  "email": "lion@gmail.com",
+  "razredi": [
+    "srednja"
+  ],
+  "referenca": "",
+  "predmeti": [
+    "Engelski jezik",
+    "Nemacki jezik"
+  ],
+  "potvrda": 1,
+  "profilePic": "/uploads/default.jpg",
+  "CV": "/uploads/CVHolder.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9e1108cf9d4f36e3d3897"
+  },
+  "username": "Beng",
+  "password": "$2b$10$5k4YEg0.ucVLPZ1OQ4onUu5HKF3YRJlitYRxe6BLX237fdjCaRezi",
+  "safetyq": "JOE",
+  "safetya": "SHIESTY",
+  "name": "Who",
+  "surname": "Dey",
+  "sex": "Z",
+  "adress": "Joe Shiesty",
+  "telephone": "0624444441",
+  "email": "beng@gmail.com",
+  "razredi": [
+    "osnovna1-4"
+  ],
+  "referenca": "",
+  "predmeti": [
+    "Srpski jezik i knjizevnost"
+  ],
+  "potvrda": 1,
+  "profilePic": "/uploads/default.jpg",
+  "CV": "/uploads/CVHolder.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c9e15d8cf9d4f36e3d389e"
+  },
+  "username": "Pack",
+  "password": "$2b$10$RCAqBTHU3Xq7vV8O5f6gC.VTGxucV2osIL//QyAIlLq.jsBiNugmW",
+  "safetyq": "JORDAN",
+  "safetya": "LOVE",
+  "name": "Green",
+  "surname": "Bay",
+  "sex": "Z",
+  "adress": "Milvoki 11",
+  "telephone": "062111111",
+  "email": "gopackgo@gmail.com",
+  "razredi": [
+    "srednja"
+  ],
+  "referenca": "",
+  "predmeti": [
+    "Programiranje"
+  ],
+  "potvrda": 1,
+  "profilePic": "/uploads/default.jpg",
+  "CV": "/uploads/CVHolder.pdf",
+  "__v": 0
+}]

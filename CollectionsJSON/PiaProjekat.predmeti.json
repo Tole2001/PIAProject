@@ -1,0 +1,152 @@
+[{
+  "_id": {
+    "$oid": "659821adf05cdfff63a5946c"
+  },
+  "predmet": "Matematika",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "659821adf05cdfff63a5946d"
+  },
+  "predmet": "Fizika",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "659821adf05cdfff63a5946e"
+  },
+  "predmet": "Hemija",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "659821adf05cdfff63a5946f"
+  },
+  "predmet": "Informatika",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "659821adf05cdfff63a59470"
+  },
+  "predmet": "Programiranje",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "659821adf05cdfff63a59471"
+  },
+  "predmet": "Srpski jezik i knjizevnost",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "659821adf05cdfff63a59472"
+  },
+  "predmet": "Engelski jezik",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "659821adf05cdfff63a59473"
+  },
+  "predmet": "Nemacki jezik",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "659821adf05cdfff63a59474"
+  },
+  "predmet": "Italijanski jezik",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "659821adf05cdfff63a59475"
+  },
+  "predmet": "Francuski jezik",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "659821adf05cdfff63a59476"
+  },
+  "predmet": "Spanski jezik",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "659821adf05cdfff63a59477"
+  },
+  "predmet": "Latinski jezik",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "659821adf05cdfff63a59478"
+  },
+  "predmet": "Biologija",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "659821adf05cdfff63a59479"
+  },
+  "predmet": "Istorija",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "659821adf05cdfff63a5947a"
+  },
+  "predmet": "Geografija",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "659821adf05cdfff63a5947b"
+  },
+  "predmet": "Svet oko nas",
+  "potvrdjen": 1
+},
+{
+  "_id": {
+    "$oid": "65ccda84f1a9b521e3d86fc0"
+  },
+  "predmet": "Baze",
+  "potvrdjen": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cdde46f26ada2948fc0639"
+  },
+  "predmet": "AOR",
+  "potvrdjen": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cf64eb716f46586255dd76"
+  },
+  "predmet": "HemijaLAB",
+  "potvrdjen": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cf651f716f46586255dd7f"
+  },
+  "predmet": "Japanski jezik",
+  "potvrdjen": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65cf6a55716f46586255de16"
+  },
+  "predmet": "Likovno",
+  "potvrdjen": 1,
+  "__v": 0
+}]

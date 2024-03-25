@@ -1,0 +1,69 @@
+
+<body>
+
+    <div class ="center-container">
+      <div class ="container">
+        <div *ngIf = "where === 0">
+          <h3>
+            Promena sifre
+          </h3>
+          <label>Unesite username:</label>
+          <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="user">
+          <br/>
+          <label>Unesite sifru:</label>
+          <input class = "btn-outline-dark rounded-pill" type="password" [(ngModel)]="old">
+          <br/>
+          <label>Unesite novu sifru:</label>
+          <input class = "btn-outline-dark rounded-pill" type="password" [(ngModel)]="newpass">
+          <br/>
+          <label>Ponovite sifru:</label>
+          <input class = "btn-outline-dark rounded-pill" type="password" [(ngModel)]="newpassAgain">
+          <br/>
+          <button class="btn btn-primary" (click) = "changePass()">Promenite Sifru</button>
+          <br/>
+          <br/>
+          <button class="btn btn-primary" (click) = "changeWhere(1)">Zaboravili ste lozinku?</button>
+          <br>
+          <span style = "color:red">{{message}}</span>
+          <br>
+          <a routerLink="/login">Nazad</a>
+        </div>
+        <div *ngIf = "where === 1">
+          <label>Unesite vas username:</label>
+          <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="usersafety">
+          <br>
+          <button class="btn btn-primary" (click) = "changeWhere(2)">Dalje</button>
+          <br>
+          <br>
+          <button class="btn btn-primary" (click) = "changeWhere(0)">Nazad</button>
+        </div>
+        <div *ngIf = "where === 2">
+          <label>Pitanje:{{safetyQ}}</label>
+          <br>
+          <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="safetyanswer">
+          <br>
+          <button class="btn btn-primary" (click) = "changeWhere(3)">Dalje</button>
+          <br>
+          <br>
+          <button class="btn btn-primary" (click) = "changeWhere(1)">Nazad</button>
+
+        </div>
+        <div *ngIf = "where === 3">
+          <label>Unesite novu sifru:</label>
+          <input class = "btn-outline-dark rounded-pill" type="password" [(ngModel)]="newpassS">
+          <br/>
+          <label>Ponovite sifru:</label>
+          <input class = "btn-outline-dark rounded-pill" type="password" [(ngModel)]="newpassAgainS">
+          <br/>
+          <button class="btn btn-primary" (click) = "changePassS()">Promenite Sifru</button>
+          <br>
+          <span style = "color:red">{{messageS}}</span>
+        </div>
+
+
+      </div>
+    </div>
+
+
+</body>
+

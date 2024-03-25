@@ -1,0 +1,112 @@
+
+
+a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 10px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+
+header {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+header span {
+  cursor: pointer;
+}
+
+header span:hover {
+  text-decoration: underline;
+}
+
+.navbar-dark-grey {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.navbar-right span {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+main {
+  flex: 1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+.unread{
+    background-color: rgb(224, 238, 144);
+    cursor: pointer;
+}
+
+
+.outer-wrapper {
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 4px;
+
+
+
+}
+.table-wrapper {
+
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: fit-content;
+  max-height: 700px;
+
+  margin-top: 22px;
+
+  margin: 15px;
+  padding-bottom: 20px;
+
+}
+
+table th{
+  position: sticky;
+  top: 0px;
+
+  ;
+
+}
+
+
+

@@ -1,0 +1,286 @@
+
+<header class="navbar navbar-dark-grey">
+  <div class="container">
+    <div class="navbar-right">
+      <span (click)="changeWhere(1)">Profil  </span>
+      <span (click)="changeWhere(2)">Nastavnici  </span>
+      <span (click)="changeWhere(3)">Časovi  </span>
+      <span (click)="changeWhere(4)">Obaveštenja  </span>
+      <span (click)="LogOut()">Log out</span>
+    </div>
+  </div>
+
+</header>
+<body>
+
+
+
+
+
+  <main>
+    <div *ngIf="where === 1">
+      <div class="container">
+        <div class="row justify-content-center"> <!-- Center the content horizontally -->
+          <div class="col-md-6"> <!-- Adjust the column width as needed -->
+              <div class="card" style="width: 400px;">
+                  <img class="card-img-top" [src]="imgRel">
+                  <div class="icon-wrapper">
+                    <input type="file" id="profilna-input-file" accept="image/*"
+                        (change)="onFileSelected($event)" />
+                    <mat-icon class="icon" fontIcon="edit"></mat-icon>
+                  </div>
+                  <div class="card-body">
+                      <h4 class="card-title">{{ loggedUcenik.name }} {{ loggedUcenik.surname }}</h4>
+                      <p class="card-text">Adresa:{{ loggedUcenik.adress }}</p>
+                      <p class="card-text">Email:{{ loggedUcenik.email }}</p>
+                      <p class="card-text">Telefon:{{ loggedUcenik.telephone }}</p>
+                      <p class="card-text">Tip skole:{{ loggedUcenik.schooltype }}</p>
+                      <p class="card-text">Razred:{{ loggedUcenik.schoolgrade }}</p>
+                  </div>
+              </div>
+        </div>
+        <div class="col-md-6">
+          <h3>Uredi Profil</h3>
+          <label for="name">Ime:</label>
+          <input class = "btn-outline-dark rounded-pill" type="text" id="name" [(ngModel)]="editedUcenik.name" >
+          <br/>
+          <label for="surname">Prezime:</label>
+          <input class = "btn-outline-dark rounded-pill" type="text" id="surname" [(ngModel)]="editedUcenik.surname" >
+          <br/>
+          <label for="adress">Adresa:</label>
+          <input class = "btn-outline-dark rounded-pill" type="text" id="adress" [(ngModel)]="editedUcenik.adress" >
+          <br/>
+          <label for="email">Email:</label>
+          <input class = "btn-outline-dark rounded-pill" type="email" id="email" [(ngModel)]="editedUcenik.email" >
+          <br/>
+          <label for="telephone">Telefon:</label>
+          <input class = "btn-outline-dark rounded-pill" type="tel" id="telephone" [(ngModel)]="editedUcenik.telephone" >
+          <br/>
+          <label for="schooltype">Tip škole:</label>
+          <select class = "btn-outline-dark rounded-pill" [(ngModel)]="editedUcenik.schooltype">
+            <option value="osnovna">Osnovna</option>
+            <option value="srednja-gimnazija">Srednja(Gimnazija)</option>
+            <option value="srednja-strucna">Srednja(Strucna)</option>
+            <option value="srednja-umetnicka">Srednja(Umetnicka)</option>
+          </select>
+          <br/>
+          <label for="schoolgrade">Trenutni razred:</label>
+          <button class="btn btn-success" type="button" (click)="incrementSchoolGrade()">+</button>
+          <br>
+          <button class="btn btn-primary" type="button" (click)="saveChanges()">Sačuvaj</button>
+          <br>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+    </div>
+    <div *ngIf="where === 2">
+      <h3>Pretraga Nastavnika</h3>
+      <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="searchIme" placeholder="Ime">
+      <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="searchPrezime" placeholder="Prezime">
+      <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="searchPredmet" placeholder="Predmet">
+      <button class="btn btn-primary" (click) = "filterNastavnici()" >Search</button>
+      <div class="outer-wrapper">
+        <div  class="table-wrapper">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>
+                  Ime
+                  <div class="btn-group">
+                    <button class="btn btn-success" (click)="sortByIme(true)">Ascending</button>
+                    <button class="btn btn-danger" (click)="sortByIme(false)">Descending</button>
+                  </div>
+                </th>
+                <th>
+                  Prezime
+                  <div class="btn-group">
+                    <button class="btn btn-success" (click)="sortByPrezime(true)">Ascending</button>
+                    <button class="btn btn-danger" (click)="sortByPrezime(false)">Descending</button>
+                  </div>
+                </th>
+                <th>
+                  Predmet
+                  <div class="btn-group">
+                    <button class="btn btn-success" (click)="sortByPredmet(true)">Ascending</button>
+                    <button class="btn btn-danger" (click)="sortByPredmet(false)">Descending</button>
+                  </div>
+                </th>
+                <th>
+                  Prosecna ocena
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let nastavnik of tableainfo" [hidden]="!nastavnik.visible">
+                <td>
+                  {{ nastavnik.ime }}
+                  <br>
+                  <a [routerLink]="['/nastavnikDetails', nastavnik.username]">Details</a>
+                </td>
+                <td>
+                  {{ nastavnik.prezime }}
+                  <br>
+                  <a [routerLink]="['/nastavnikDetails', nastavnik.username]">Details</a>
+                </td>
+                <td>
+                  {{ nastavnik.predmet }}
+                </td>
+                <td>
+                  N/A
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+    </div>
+    <div *ngIf="where === 3">
+      <h2>Odrzani casovi:</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th>Datum i vreme pocetka</th>
+              <th>Datum i vreme kraja</th>
+              <th>Nastavnik</th>
+              <th>Predmet</th>
+              <th>Komentar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <ng-container *ngFor="let cas of odrzani">
+              <tr>
+                <td>{{cas.startDisplayTime | date: 'MM-dd-yyyy HH:mm'}}</td>
+                <td>{{cas.endDisplayTime | date: 'MM-dd-yyyy HH:mm'}}</td>
+                <td>{{cas.name}} {{cas.surname}}</td>
+                <td>{{cas.predmet}}</td>
+                <td>{{cas.komentar}}</td>
+              </tr>
+            </ng-container>
+          </tbody>
+        </table>
+      </div>
+      <br/>
+      <h2>Casovi koji slede:</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th>Datum i vreme pocetka</th>
+              <th>Datum i vreme kraja</th>
+              <th>Nastavnik</th>
+              <th>Predmet</th>
+              <th>Opis</th>
+            </tr>
+          </thead>
+          <tbody>
+            <ng-container *ngFor="let cas of neodrzani">
+              <tr>
+                <td>{{cas.startDisplayTime | date: 'MM-dd-yyyy HH:mm'}}</td>
+                <td>{{cas.endDisplayTime | date: 'MM-dd-yyyy HH:mm'}}</td>
+                <td>{{cas.name}} {{cas.surname}}</td>
+                <td>{{cas.predmet}}</td>
+                <td>{{cas.opis}}</td>
+              </tr>
+            </ng-container>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div *ngIf="where === 4">
+      <div class = "buttons">
+        <button class="btn btn-outline-dark" (click)="chagneDisplay(0)">Odbijeni casovi</button>
+        <button class="btn btn-outline-dark" (click)="chagneDisplay(1)">Potvrdjeni casovi</button>
+        <button class="btn btn-outline-dark" (click)="chagneDisplay(2)">Otkazani casovi</button>
+      </div>
+      <div *ngIf="display === 0">
+        <h2>Odbijeni časovi :</h2>
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+              <tr>
+                <th>Datum i vreme pocetka</th>
+                <th>Nastavnik</th>
+                <th>Predmet</th>
+                <th>Komentar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <ng-container *ngFor="let cas of odbijenObavestenja">
+                <tr [ngClass]="{'unread': cas.potvrdaObavestenje === 0}">
+                  <td [ngClass]="{'unread': cas.potvrdaObavestenje === 0}" (click)="PotvrdaObavestenje(cas)">{{cas.startDisplayTime | date: 'MM-dd-yyyy HH:mm'}}</td>
+                  <td [ngClass]="{'unread': cas.potvrdaObavestenje === 0}" (click)="PotvrdaObavestenje(cas)">{{cas.name}} {{cas.surname}}</td>
+                  <td [ngClass]="{'unread': cas.potvrdaObavestenje === 0}" (click)="PotvrdaObavestenje(cas)">{{cas.predmet}}</td>
+                  <td [ngClass]="{'unread': cas.potvrdaObavestenje === 0}" (click)="PotvrdaObavestenje(cas)">{{cas.komentar}}</td>
+                </tr>
+              </ng-container>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div *ngIf="display === 1">
+        <h2>Potvrdjeni časovi :</h2>
+        <div class="table-responsive">
+          <table class="table  ">
+            <thead class="thead-dark">
+              <tr>
+                <th>Datum i vreme pocetka</th>
+                <th>Nastavnik</th>
+                <th>Predmet</th>
+              </tr>
+            </thead>
+            <tbody>
+              <ng-container *ngFor="let cas of potvrdaObavestenja">
+                <tr >
+                  <td [ngClass]="{'unread': cas.potvrdaObavestenje === 0}" (click)="PotvrdaObavestenje(cas)">{{cas.startDisplayTime | date: 'MM-dd-yyyy HH:mm'}}</td>
+                  <td [ngClass]="{'unread': cas.potvrdaObavestenje === 0}" (click)="PotvrdaObavestenje(cas)">{{cas.name}} {{cas.surname}}</td>
+                  <td [ngClass]="{'unread': cas.potvrdaObavestenje === 0}" (click)="PotvrdaObavestenje(cas)">{{cas.predmet}}</td>
+                </tr>
+              </ng-container>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div *ngIf="display === 2">
+        <h2>Otkazani časovi :</h2>
+        <div class="table-responsive">
+          <table class="table table-bordered ">
+            <thead class="thead-dark">
+              <tr>
+                <th>Datum i vreme pocetka</th>
+                <th>Nastavnik</th>
+                <th>Predmet</th>
+                <th>Komentar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <ng-container *ngFor="let cas of otkazObavestenja">
+                <tr [ngClass]="{'unread': cas.otkazObavestenj === 0}">
+                  <td [ngClass]="{'unread': cas.otkazObavestenj === 0}" (click)="OtkazObavestenje(cas)">{{cas.startDisplayTime | date: 'MM-dd-yyyy HH:mm'}}</td>
+                  <td [ngClass]="{'unread': cas.otkazObavestenj === 0}" (click)="OtkazObavestenje(cas)">{{cas.name}} {{cas.surname}}</td>
+                  <td [ngClass]="{'unread': cas.otkazObavestenj === 0}" (click)="OtkazObavestenje(cas)">{{cas.predmet}}</td>
+                  <td [ngClass]="{'unread': cas.otkazObavestenj === 0}" (click)="OtkazObavestenje(cas)">{{cas.komentar}}</td>
+                </tr>
+              </ng-container>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <p>PIA Projekat</p>
+    </div>
+  </footer>
+</body>

@@ -1,0 +1,36 @@
+body {
+  background: url('../../assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.container {
+  border: 2px solid #ced4da;
+  border-radius: 10px;
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.container h3 {
+  text-align: center;
+}
+
+.container input {
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.container button {
+  width: 60%;
+}

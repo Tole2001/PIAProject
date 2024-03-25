@@ -1,0 +1,93 @@
+<header class="navbar navbar-dark-grey">
+  <div class="container">
+    <div class="navbar-right">
+      <span (click)="back()">Nazad</span>
+    </div>
+  </div>
+
+</header>
+
+<div class="container">
+  <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h3>Profil</h3>
+          <div class="card" style = "width:400px">
+              <img class="card-img-top" [src]="imgRel" >
+              <div class="card-body">
+                  <h4 class="card-title">{{ nastavnik.name }} {{ nastavnik.surname }}</h4>
+                  <p class="card-text">Adresa:{{ nastavnik.adress }}</p>
+                  <p class="card-text">Email:{{ nastavnik.email }}</p>
+                  <p class="card-text">Telefon:{{ nastavnik.telephone }}</p>
+                  <p class="card-text">Predmeti:
+                      <ng-container *ngFor="let predmet of nastavnik.predmeti">
+                          <div class="indented">{{ predmet }}</div>
+                      </ng-container>
+                  </p>
+                  <p class="card-text">Razredi:
+                      <ng-container *ngFor="let razred of nastavnik.razredi">
+                          <div class="indented">{{ razred }}</div>
+                      </ng-container>
+                  </p>
+                  <p class="card-text">Ocene:
+                    <ng-container *ngFor="let ocena of ocene">
+                        <div class="indented">{{ ocena }}</div>
+                    </ng-container>
+                </p>
+                <p class="card-text">Komentari:
+                  <ng-container *ngFor="let kom of komentari">
+                      <div class="indented">{{ kom }}</div>
+                  </ng-container>
+              </p>
+
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6">
+        <h2>Zakazivanje casa:</h2>
+        <form (ngSubmit)="submitForm()" #classForm="ngForm" novalidate>
+          <label for="subject">Predmet:</label>
+          <select class = "btn-outline-dark rounded-pill" id="subject" name="subject" [(ngModel)]="cas.predmet" required>
+            <ng-container *ngIf="isSpecialized; else multipleSubjects">
+              <option [ngValue]="nastavnik.predmeti[0]" [selected]="true" disabled>{{ nastavnik.predmeti[0] }}</option>
+            </ng-container>
+
+
+            <ng-template #multipleSubjects>
+              <option *ngFor="let predmet of nastavnik.predmeti" [value]="predmet">{{ predmet }}</option>
+            </ng-template>
+          </select>
+          <br/>
+
+
+          <label for="dateTime">Datum i vreme:</label>
+          <input class = "btn-outline-dark rounded-pill" id="dateTime" name="dateTime" type="datetime-local" [(ngModel)]="cas.datumvreme" required>
+          <br/>
+
+          <label for="description">Opis:</label>
+          <textarea class = "btn-outline-dark " id="description" name="description" [(ngModel)]="cas.opis" required></textarea>
+          <br/>
+
+          <label for="doubleClass">Dupli cas:</label>
+          <input class = "btn-outline-dark rounded-pill" id="doubleClass" name="doubleClass" type="checkbox" [(ngModel)]="dupli">
+          <br/>
+          <span style = "color: red" *ngIf="message !== ''">{{message}}</span>
+          <span style = "color: green" *ngIf="succes !== ''">{{succes}}</span>
+          <br>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+      </div>
+  </div>
+</div>
+<br/>
+
+
+
+<footer>
+  <div class="footer-content">
+    <p>PIA Projekat</p>
+  </div>
+</footer>
+
+
+
+

@@ -1,0 +1,259 @@
+<header class="navbar navbar-dark-grey">
+  <div class="container">
+    <div class="navbar-right">
+      <span (click)="changeWhere(1)">Profil  </span>
+      <span (click)="changeWhere(2)">Casovi  </span>
+      <span (click)="changeWhere(3)">Moji ucenici  </span>
+      <span (click)="LogOut()">Log out</span>
+    </div>
+  </div>
+
+</header>
+
+
+
+<body>
+
+
+  <main>
+    <div *ngIf="where === 1">
+      <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card" style = "width:400px">
+                    <img class="card-img-top" [src]="imgRel" >
+                    <div class="icon-wrapper">
+                      PFP:
+                      <input type="file" id="profilna-input-file" accept="image/*"
+                      (change)="onImageSelected($event)" />
+                      <mat-icon class="icon" fontIcon="edit"></mat-icon>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">{{ nastavnik.name }} {{ nastavnik.surname }}</h4>
+                        <p class="card-text">Adresa:{{ nastavnik.adress }}</p>
+                        <p class="card-text">Email:{{ nastavnik.email }}</p>
+                        <p class="card-text">Telefon:{{ nastavnik.telephone }}</p>
+                        <p class="card-text">Predmeti:
+                            <ng-container *ngFor="let predmet of nastavnik.predmeti">
+                                <div class="indented">{{ predmet }}</div>
+                            </ng-container>
+                        </p>
+                        <p class="card-text">Razredi:
+                            <ng-container *ngFor="let razred of nastavnik.razredi">
+                                <div class="indented">{{ razred }}</div>
+                            </ng-container>
+                        </p>
+                        <p class="card-text">
+                            <a (click)="openPdf()" style="cursor: pointer;">
+                                <mat-icon>description</mat-icon>
+                                Moj CV
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+              <h3>Uredi Profil</h3>
+              <label for="name">Ime:</label>
+              <input class = "btn-outline-dark rounded-pill" type="text" id="name" [(ngModel)]="edited.name" >
+              <br/>
+
+              <label for="surname">Prezime:</label>
+              <input class = "btn-outline-dark rounded-pill" type="text" id="surname" [(ngModel)]="edited.surname" >
+              <br/>
+
+              <label for="adress">Adresa:</label>
+              <input class = "btn-outline-dark rounded-pill" type="text" id="adress" [(ngModel)]="edited.adress" >
+              <br/>
+
+              <label for="email">Email:</label>
+              <input class = "btn-outline-dark rounded-pill" type="email" id="email" [(ngModel)]="edited.email" >
+              <br/>
+
+              <label for="telephone">Telefon:</label>
+              <input class = "btn-outline-dark rounded-pill" type="tel" id="telephone" [(ngModel)]="edited.telephone" >
+              <br/>
+              <p>Razredi(izaberite sve razrede kojima biste predavali):</p>
+              <label>
+                <input class = "btn-outline-dark rounded-pill" type="checkbox" [checked]="selectedAges.includes('osnovna1-4')" (change)="toggleAge('osnovna1-4')">
+                Osnovna škola 1-4. razred
+              </label>
+              <br/>
+              <label>
+                <input class = "btn-outline-dark rounded-pill" type="checkbox" [checked]="selectedAges.includes('osnovna5-8')" (change)="toggleAge('osnovna5-8')">
+                Osnovna škola 5-8. razred
+              </label>
+              <br/>
+              <label>
+                <input class = "btn-outline-dark rounded-pill" type="checkbox" [checked]="selectedAges.includes('srednja')" (change)="toggleAge('srednja')">
+                Srednja škola
+              </label>
+              <br/>
+              Koje predmete bi predavali?(izaberite sve predmete koje bi predavali)
+              <br/>
+              <div class="checkbox-container">
+                <label *ngFor="let predmet of predmeti">
+                  <input class="btn-outline-dark rounded-pill" type="checkbox" name="predmeti" [value]="predmet.predmet" (change)="toggleSelection(predmet.predmet)">
+                  {{ predmet.predmet }}
+                </label>
+              </div>
+
+
+              <button class="btn btn-primary" type="button" (click)="saveChanges()">Sačuvaj</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    </div>
+    <div *ngIf="where === 2">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Tabela zahteva</h3>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Učenik</th>
+                <th>Predmet</th>
+                <th>Opis</th>
+                <th>Datum</th>
+                <th>Prosecna ocena</th>
+                <th>Prihvati</th>
+                <th>Odbij</th>
+              </tr>
+            </thead>
+            <tbody>
+              <ng-container *ngFor="let zahtev of casovizapotvrdu">
+                <tr>
+                  <td>{{ zahtev.ucenikName }} {{ zahtev.ucenikSurname }}</td>
+                  <td>{{ zahtev.predmet }}</td>
+                  <td>{{ zahtev.startDisplayTime | date: 'MM-dd-yyyy HH:mm' }}<span *ngIf = "zahtev.isduble === 1">(dupli cas)</span></td>
+                  <td>{{ zahtev.opis }}</td>
+                  <td>{{ zahtev.avgOcena }}</td>
+                  <td>
+                    <button class="btn btn-success" type="button" (click)="prihvatiCas(zahtev)">Prihvati</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-danger" type="button" (click)="odbijCas(zahtev)">Odbij</button>&nbsp;
+                    <input class = "btn-outline-dark rounded-pill"  type="text" [(ngModel)]="zahtev.komentar" placeholder = "Zasto je odbijen...">
+                  </td>
+                </tr>
+              </ng-container>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Narednih 5 časova</h3>
+          <button class="btn btn-info  mr-2" type="button" (click)="changeDisplay(1)">5 casova u 3 dana</button>&nbsp;
+          <button class="btn btn-info  mr-2" type="button" (click)="changeDisplay(2)">10 casova</button>&nbsp;
+          <button class="btn btn-info " type="button" (click)="changeDisplay(3)">Svi casovi </button>&nbsp;
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Datum</th>
+                <th>Predmet</th>
+                <th>Učenik</th>
+                <th>Udji</th>
+                <th>Otkazi</th>
+              </tr>
+            </thead>
+            <tbody *ngIf="displayCasovi === 1">
+              <ng-container *ngFor="let zahtev of casthree.slice(0, 5); let i = index" >
+                <tr >
+                  <td>{{ zahtev.startDisplayTime | date: 'MM-dd-yyyy HH:mm' }}</td>
+                  <td>{{ zahtev.predmet }}</td>
+                  <td>{{ zahtev.ucenikName }} {{ zahtev.ucenikSurname }}</td>
+                  <td>
+                    <button *ngIf="isWithinFifteenMinutes(zahtev.startDisplayTime)" class="btn btn-success" type="button" (click)="odrziCas(zahtev.datumvreme,zahtev)">Odrzi Cas</button>
+                  </td>
+                  <td>
+                    <button *ngIf="!iswithin4Hurs(zahtev.startDisplayTime)" class="btn btn-danger" type="button" (click)="otkazi(zahtev.datumvreme,zahtev)">Otkazi</button>&nbsp;
+                    <input class = "btn-outline-dark rounded-pill"  type="text" [(ngModel)]="zahtev.komentar" placeholder = "Zasto je otkazan...">
+                  </td>
+                </tr>
+              </ng-container>
+            </tbody>
+            <tbody *ngIf="displayCasovi === 2">
+              <ng-container *ngFor="let zahtev of allCasovi.slice(0, 10); let i = index">
+                <tr>
+                  <td>{{ zahtev.startDisplayTime | date: 'MM-dd-yyyy HH:mm' }}</td>
+                  <td>{{ zahtev.predmet }}</td>
+                  <td>{{ zahtev.ucenikName }} {{ zahtev.ucenikSurname }}</td>
+                  <td>
+                    <button *ngIf="isWithinFifteenMinutes(zahtev.startDisplayTime)" class="btn btn-success" type="button" (click)="odrziCas(zahtev.datumvreme,zahtev)">Odrzi Cas</button>
+                  </td>
+                  <td>
+                    <button *ngIf="!iswithin4Hurs(zahtev.startDisplayTime)" class="btn btn-danger" type="button" (click)="otkazi(zahtev.datumvreme,zahtev)">Otkazi</button>&nbsp;
+                    <input class = "btn-outline-dark rounded-pill"  type="text" [(ngModel)]="zahtev.komentar" placeholder = "Zasto je otkazan...">
+                  </td>
+                </tr>
+              </ng-container>
+            </tbody>
+            <tbody *ngIf="displayCasovi === 3">
+              <ng-container *ngFor="let zahtev of allCasovi">
+                <tr>
+                  <td>{{zahtev.startDisplayTime | date: 'MM-dd-yyyy HH:mm' }}</td>
+                  <td>{{ zahtev.predmet }}</td>
+                  <td>{{ zahtev.ucenikName }} {{ zahtev.ucenikSurname }}</td>
+                  <td>
+                    <button *ngIf="isWithinFifteenMinutes(zahtev.startDisplayTime)" class="btn btn-success" type="button" (click)="odrziCas(zahtev.datumvreme,zahtev)">Odrzi Cas</button>
+                  </td>
+                  <td>
+                    <button *ngIf="!iswithin4Hurs(zahtev.startDisplayTime)" class="btn btn-danger" type="button" (click)="otkazi(zahtev.datumvreme,zahtev)">Otkazi</button>&nbsp;
+                    <input class = "btn-outline-dark rounded-pill"  type="text" [(ngModel)]="zahtev.komentar" placeholder = "Zasto je otkazan...">
+                  </td>
+
+                </tr>
+              </ng-container>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="where === 3">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Moji Učenici</h3>
+          <table class="table">
+            <tbody>
+              <ng-container *ngFor="let ucenik of helper">
+                <tr>
+                  <td>{{ ucenik.fullname }}</td>
+                  <td>
+                    <button class="btn btn-info" type="button" (click)="getAll(ucenik)">Dosije Toggle</button>
+                  </td>
+                </tr>
+                <tr *ngIf="ucenik.toggle">
+                  <td colspan="2">
+                    <h4>Dosije</h4>
+                    <div class="list-group">
+                      <span *ngFor="let cas of ucenik.casovi; let i=index" class="list-group-item">
+                        {{ cas.predmet }} - {{ cas.startDisplayTime | date: 'MM-dd-yyyy HH:mm' }}
+                        <input class = "btn-outline-dark rounded-pill"  type="number"  [(ngModel)]="ucenik.casovi[i].ocena" placeholder = "Ocena...">
+                        <input class = "btn-outline-dark rounded-pill"  type="text" [(ngModel)]="ucenik.casovi[i].komentar" placeholder = "OpcioniKomentar...">&nbsp;
+                        <button class="btn btn-primary" type="button" (click)="updateCas(cas)">Ostavi ocenu/komentar</button>
+                      </span>
+                    </div>
+                  </td>
+                </tr>
+              </ng-container>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <p>PIA Projekat</p>
+    </div>
+  </footer>
+</body>
+
+

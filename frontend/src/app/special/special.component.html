@@ -1,0 +1,21 @@
+
+<body>
+  <div class ="center-container">
+    <div class="container">
+      <h3>Admin Log in</h3>
+      <br/>
+      Username:
+      <br/>
+      <input class = "btn-outline-dark rounded-pill"  type="text" [(ngModel)]="username" placeholder = "Username...">
+      <br/>
+      Password:
+      <br/>
+      <input class = "btn-outline-dark rounded-pill" type="password" [(ngModel)]="password" placeholder = "Password...">
+      <br/>
+      <span style = "color:red">{{message}}</span>
+      <br>
+      <button class="btn btn-primary" (click)="login()">Login</button>
+
+    </div>
+  </div>
+</body>

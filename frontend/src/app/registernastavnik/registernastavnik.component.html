@@ -1,0 +1,90 @@
+
+
+<body>
+  <div class ="center-container">
+    <div class ="container">
+      <div *ngIf="firststep === 0">
+        Username: <input  class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="user.username">
+        <br/>
+        Password: <input  class = "btn-outline-dark rounded-pill" type="password" [(ngModel)]="user.password">
+        <br/>
+        Firstname: <input  class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="user.name">
+        <br/>
+        Lastname: <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="user.surname">
+        <br/>
+        Safety question: <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="user.safetyq">
+        <br/>
+        Safety answer: <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="user.safetya">
+        <br/>
+        Adress: <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="user.adress">
+        <br/>
+        email: <input class = "btn-outline-dark rounded-pill" type="email" [(ngModel)]="user.email">
+        <br/>
+        Telephone: <input class = "btn-outline-dark rounded-pill" type="tel" [(ngModel)]="user.telephone">
+        <br/>
+        <label for="pol">Select Gender:</label>
+        <select class = "btn-outline-dark rounded-pill" id="pol" [(ngModel)]="user.sex" name="pol">
+          <option value="M">Musko</option>
+          <option value="Z">Zensko</option>
+        </select>
+        <br/>
+
+        Profilna slika:<input class = "btn-outline-dark rounded-pill" type="file" (change)="onFileSelected($event)" accept="image/*"  />
+        <br/>
+        <button class="btn btn-primary" (click)="goToSecondStep()">Next</button>
+        <br>
+        <span style = "color:red">{{message}}</span>
+        <br>
+        <a routerLink="/login">Nazad</a>
+
+
+      </div>
+      <div *ngIf="firststep === 1">
+        Razredi gde bi predavali:
+        <br/>
+        <label>
+          <input class = "btn-outline-dark rounded-pill" type="checkbox" [checked]="selectedAges.includes('osnovna1-4')" (change)="toggleAge('osnovna1-4')">
+          Osnovna škola 1-4. razred
+        </label>
+        <br/>
+        <label>
+          <input class = "btn-outline-dark rounded-pill" type="checkbox" [checked]="selectedAges.includes('osnovna5-8')" (change)="toggleAge('osnovna5-8')">
+          Osnovna škola 5-8. razred
+        </label>
+        <br/>
+        <label>
+          <input class = "btn-outline-dark rounded-pill" type="checkbox" [checked]="selectedAges.includes('srednja')" (change)="toggleAge('srednja')">
+          Srednja škola
+        </label>
+        <br/>
+        Gde ste culi za nas sajt: <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="user.referenca" >
+        <br/>
+        Koje predmete bi predavali?
+        <br/>
+        <label *ngFor="let predmet of predmeti">
+          <input class = "rounded-pill" type="checkbox" name="predmeti" [value]="predmet.predmet" (change)="toggleSelection(predmet.predmet)">
+          {{ predmet.predmet }}
+          <br/>
+        </label>
+        <br/>
+        Neki drugi predmet(unesite ime zeljenog predmeta ako ocete vise predmeta unesite 1 po 1)?
+        <br/>
+        <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="predmetToAdd">
+        <button class="btn btn-primary" (click)="addPredmet()">Dodaj</button>
+        <br/>
+        CV:<input class = "btn-outline-dark rounded-pill" type="file" (change)="onFileSelected($event)" accept=".pdf" />
+        <br/>
+        <span style = "color:red">{{message2}}</span>
+        <br>
+
+        <br/>
+        <button  class="btn btn-primary" (click)="showAlert()">Register</button>
+        <br>
+        <br/>
+        <button class="btn btn-primary" (click)="back()">Nazad</button>
+      </div>
+
+    </div>
+  </div>
+</body>
+

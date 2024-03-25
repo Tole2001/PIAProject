@@ -1,0 +1,47 @@
+.indented {
+  padding-left: 20px; /* Adjust the value based on your preference */
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+
+
+header {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+header span {
+  cursor: pointer;
+}
+
+header span:hover {
+  text-decoration: underline;
+}
+
+.navbar-dark-grey {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.navbar-right span {
+  cursor: pointer;
+  margin-bottom: 10px;
+}

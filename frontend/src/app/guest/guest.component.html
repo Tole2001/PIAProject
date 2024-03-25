@@ -1,0 +1,84 @@
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+
+<body>
+
+  <div class ="center-container">
+    <div class="container ">
+      <table class="table table-bordered">
+        <thead class="thead-light">
+            <tr>
+              <th class = "col-sm-3">Broj ucenika</th>
+              <th class = "col-sm-3">Broj aktivnih nastavnika</th>
+              <th class = "col-sm-3">Broj odrzanih casova u zadnjih 7 dana</th>
+              <th class = "col-sm-3">Broj odrzanih casova u zadnjih mesec dana</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{ ucenici.length }}</td>
+            <td>{{ nastavnici.length }}</td>
+            <td>{{ casovi7.length }}</td>
+            <td>{{ casovi31.length }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <br/>
+      <a class="btn btn-primary mt-3" routerLink="/login">LogIn/Register</a>
+      <h3>Lista nastavnika i predmeta</h3>
+      <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="searchIme" placeholder="Ime">
+      <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="searchPrezime" placeholder="Prezime">
+      <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="searchPredmet" placeholder="Predmet">
+      <button class="btn btn-primary" (click) = "filterNastavnici()" >Search</button>
+      <br/>
+      <div class="table-responsive  ">
+        <div class="outer-wrapper">
+          <div  class="table-wrapper">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th class = "col-sm-4">
+                    Ime
+                    <div class="btn-group">
+                      <button class="btn btn-success" (click)="sortByIme(true)">Ascending</button>
+                      <button class="btn btn-danger" (click)="sortByIme(false)">Descending</button>
+                    </div>
+                  </th>
+                  <th class = "col-sm-4">
+                    Prezime
+                    <div class="btn-group">
+                      <button class="btn btn-success" (click)="sortByPrezime(true)">Ascending</button>
+                      <button class="btn btn-danger" (click)="sortByPrezime(false)">Descending</button>
+                    </div>
+                  </th>
+                  <th class = "col-sm-4">
+                    Predmet
+                    <div class="btn-group">
+                      <button class="btn btn-success" (click)="sortByPredmet(true)">Ascending</button>
+                      <button class="btn btn-danger" (click)="sortByPredmet(false)">Descending</button>
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+
+                <tbody class = "wrapper">
+                  <tr *ngFor="let l of tableainfo" [hidden]="!l.visible">
+                    <td class = "col-sm-4">{{ l.ime }}</td>
+                    <td class = "col-sm-4">{{ l.prezime }}</td>
+                    <td class = "col-sm-4">{{ l.predmet }}</td>
+                  </tr>
+                </tbody>
+
+            </table>
+          </div >
+          </div>
+
+      </div>
+
+    </div>
+  </div>
+</body>
+

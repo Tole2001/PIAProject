@@ -1,0 +1,61 @@
+
+<body>
+  <div class ="center-container">
+    <div class ="container">
+      Username: <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="user.username">
+      <br/>
+      Password: <input class = "btn-outline-dark rounded-pill" type="password" [(ngModel)]="user.password">
+      <br/>
+      Firstname: <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="user.name">
+      <br/>
+      Lastname: <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="user.surname">
+      <br/>
+      Safety question: <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="user.safetyq">
+      <br/>
+      Safety answer: <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="user.safetya">
+      <br/>
+      Adress: <input class = "btn-outline-dark rounded-pill" type="text" [(ngModel)]="user.adress">
+      <br/>
+      email: <input class = "btn-outline-dark rounded-pill" type="email" [(ngModel)]="user.email" >
+      <br/>
+      Telephone: <input class = "btn-outline-dark rounded-pill" type="tel" [(ngModel)]="user.telephone">
+      <br/>
+      <label for="pol">Select Gender:</label>
+      <select class = "btn-outline-dark rounded-pill" id="pol" [(ngModel)]="user.sex" name="pol">
+        <option value="M">Musko</option>
+        <option value="Z">Zensko</option>
+      </select>
+      <br/>
+      <label for="schoolType">School Type:</label>
+      <select class = "btn-outline-dark rounded-pill" id="schoolType" [(ngModel)]="user.schooltype" name="schoolType">
+        <option value="osnovna">Osnovna</option>
+        <option value="srednja-gimnazija">Srednja(Gimnazija)</option>
+        <option value="srednja-strucna">Srednja(Strucna)</option>
+        <option value="srednja-umetnicka">Srednja(Umetnicka)</option>
+      </select>
+      <br/>
+      <label for="currentGrade">Current Grade:</label>
+      <select *ngIf="user.schooltype !== 'osnovna'" class = "btn-outline-dark rounded-pill" id="currentGrade" [(ngModel)]="user.schoolgrade" name="currentGrade">
+        <option *ngFor="let grade of gradeH" [value]="grade">{{ grade }}</option>
+      </select>
+      <select *ngIf="user.schooltype === 'osnovna'" class = "btn-outline-dark rounded-pill" id="currentGrade" [(ngModel)]="user.schoolgrade" name="currentGrade">
+        <option *ngFor="let grade of gradeO" [value]="grade">{{ grade }}</option>
+      </select>
+      <br/>
+      Profilna slika:<input class = "btn-outline-dark " type="file" (change)="onFileSelected($event)" accept="image/*"  />
+      <br/>
+      <button class="btn btn-primary" (click)="register()">Register</button>
+      <br>
+      <span style = "color:red">{{message}}</span>
+      <br>
+
+
+
+
+      <a routerLink="/login">Nazad</a>
+
+    </div>
+  </div>
+</body>
+
+

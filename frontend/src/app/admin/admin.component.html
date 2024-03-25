@@ -1,0 +1,201 @@
+<header class="navbar navbar-dark-grey">
+  <div class="container">
+    <div class="navbar-right">
+      <span (click)="changeWhere(1)">Dijagrami  </span>
+      <span (click)="changeWhere(2)">Funkcije  </span>
+      <span (click)="LogOut()">Log out</span>
+    </div>
+  </div>
+
+
+</header>
+<body>
+  <main>
+    <div *ngIf="where === 1" class="row">
+      <div class="col-sm-12">
+        <div class = "buttons">
+          <button class="btn btn-outline-dark" (click)="showChartBar(1)">Bar dijagrami</button>
+          <button class="btn btn-outline-dark" (click)="showChartBar(2)">Pie dijagrami</button>
+          <button class="btn btn-outline-dark" (click)="showChartBar(3)">Histogram dijagrami</button>
+          <button class="btn btn-outline-dark" (click)="showChartBar(4)">Linija dijagrami</button>
+        </div>
+        <div *ngIf="chart === 1">
+          <div id="chart-container">
+            <canvas
+            baseChart
+            class="chart"
+            [options]="chartOptions"
+            [data]="barChartData2"
+            [type]="barChartType2"
+            >
+            </canvas>
+          </div>
+          <br/>
+          <div id="chart-container">
+            <canvas
+            baseChart
+            class="chart"
+            [options]="chartOptions"
+            [data]="barChartDataAge"
+            [type]="barChartType2"
+            >
+            </canvas>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div *ngIf="chart === 2" class = 'row'>
+        <div class="col-sm-12">
+          <div id="chart-container">
+            <canvas
+            baseChart
+            class="chart"
+            [options]="chartOptions"
+            [data]="pieChartData"
+            [type]="pieType"
+            >
+            </canvas>
+          </div>
+          <div id="chart-container">
+            <canvas
+            baseChart
+            class="chart"
+            [options]="chartOptions"
+            [data]="pieChartData2"
+            [type]="pieType"
+            >
+            </canvas>
+          </div>
+        </div>
+      </div>
+
+
+      <div *ngIf="chart === 3" class = 'row'>
+        <div class="col-sm-12">
+          <div id="chart-container">
+            <canvas
+            baseChart
+            class="chart"
+            [options]="histogramOptions"
+            [data]="histogramChart"
+            [type]="barChartType2"
+            >
+            </canvas>
+          </div>
+        </div>
+
+      </div>
+
+      <div *ngIf="chart === 4" class = 'row'>
+        <div  class="col-sm-12">
+          <div id="chart-container">
+            <canvas
+            baseChart
+            class="chart"
+            [options]="lineChartOptions"
+            [data]="lineChartData"
+            [type]="lineChartType"
+            >
+            </canvas>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+    <div *ngIf="where === 2">
+      <div class="row">
+        <div class="col-sm-12">
+          <h3>Pregled prijava nastavnika:</h3>
+          <div class="row">
+            <ng-container *ngFor="let nastavnik of nastavnici">
+              <div class="col-md-3">
+                <div class="card" style="margin-bottom: 20px;width: 300px;"  >
+                  <div class="card-body">
+                    <img class="card-img-top" [src]="backend + nastavnik.profilePic" style="width: 100%; height: 150px;" >
+                    <h4 class="card-title">{{ nastavnik.name }} {{ nastavnik.surname }}</h4>
+                    <p class="card-text">Adresa:{{ nastavnik.adress }}</p>
+                    <p class="card-text">Email:{{ nastavnik.email }}</p>
+                    <p class="card-text">Telefon:{{ nastavnik.telephone }}</p>
+                    <p class="card-text">Pol:{{ nastavnik.sex }}</p>
+                    <p class="card-text">Referenca:{{ nastavnik.referenca
+                    }}</p>
+                    <p class="card-text">Predmeti:
+                      <ng-container *ngFor="let predmet of nastavnik.predmeti">
+                        <div class="indented">{{ predmet }}</div>
+                      </ng-container>
+                    </p>
+                    <p class="card-text">Razredi:
+                      <ng-container *ngFor="let razred of nastavnik.razredi">
+                        <div class="indented">{{ razred }}</div>
+                      </ng-container>
+                    </p>
+                    <p class="card-text">
+                      <a (click)="openPdf(nastavnik.CV)" style="cursor: pointer;">
+                        <mat-icon>description</mat-icon>
+                        CV
+                      </a>
+                    </p>
+                    <p class="card-text">
+                      <button class="btn btn-success btn-block" type="button" (click)="prihvatiNastavnika(nastavnik.username)">Prihvati</button>
+                    </p>
+                    <p class="card-text">
+                      <button class="btn btn-danger btn-block" type="button" (click)="odbijNastavnika(nastavnik.username)">Odbij</button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Pregled predmeta:</h3>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Predmet</th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <ng-container *ngFor="let prdmt of predmeti">
+                <tr>
+                  <td>{{ prdmt.predmet }}</td>
+                  <td>
+                    <button class="btn btn-success" type="button" (click)="addPredmet(prdmt.predmet)">Prihvati Predmet</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-danger" type="button" (click)="rejectPredmet(prdmt.predmet)">Odbij Predmet</button>
+                  </td>
+                </tr>
+              </ng-container>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <h3>Dodaj Predmet:</h3>
+      <input  class = "btn-outline-dark rounded-pill" type ="text" [(ngModel)] = "predmettoadd">
+      <button class="btn btn-primary" type="button" (click)="addPr(predmettoadd)" >DodajPredmet</button>
+
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <p>PIA Projekat</p>
+    </div>
+  </footer>
+
+</body>
+
+
+
+

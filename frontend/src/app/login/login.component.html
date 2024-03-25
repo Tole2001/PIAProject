@@ -1,0 +1,40 @@
+
+<body>
+  <div class ="center-container">
+    <div class="container">
+      <h3>Log in</h3>
+      <br/>
+      Username:
+      <br/>
+      <input class = "btn-outline-dark rounded-pill"  type="text" [(ngModel)]="username" placeholder = "Username...">
+      <br/>
+      Password:
+      <br/>
+      <input class = "btn-outline-dark rounded-pill" type="password" [(ngModel)]="password" placeholder = "Password...">
+      <br/>
+      Tip:
+      <br/>
+      <select class = "btn-outline-dark rounded-pill" [(ngModel)]="type">
+        <option value="1">Ucenik</option>
+        <option value="2">Nastavnik</option>
+      </select>
+      <br/>
+      <span style = "color:red">{{message}}</span>
+      <br>
+      <button class="btn btn-primary" (click)="login()">Login</button>
+      <br/>
+      <a routerLink="/register">Registracija ucenika</a>
+      <br/>
+      <a routerLink="/registernastavnik">Registracija nastavnika</a>
+      <br/>
+      <a routerLink="/change">Promeni lozinku</a>
+      <br/>
+      <a routerLink="/">Nazad</a>
+      <br>
+
+    </div>
+  </div>
+</body>
+
+
+
